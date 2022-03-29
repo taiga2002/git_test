@@ -1,0 +1,18 @@
+.yellowBackground {
+    background-color: yellow;
+}
+.container {
+    display:flex; flex-direction: row; margin-top: 20px; margin-bottom: 20px
+}
+.rowContainer {
+    flex:1; background-color: yellow; margin-right: 20px;
+}
+.imgContainer {
+    display: flex; flex-direction: row; justify-content: space-evenly;
+}
+.img {
+    width: 200px; height: 200px
+}
+.articleContainer {
+    flex:2; background-color: yellow;
+}

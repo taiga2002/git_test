@@ -46,3 +46,84 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+.empty3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.blue3 {
+  width: 80px;
+  background-color: blue;
+}
+.red3 {
+  width: 80px;
+  background-color: red;
+}
+.red4 {
+  width: 80px;
+  background-color: red;
+  flex-grow:1;
+}
+.empty5 {
+  display:flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+.red5 {
+  width:40px;
+  height:40px;
+  background-color: red;
+}
+.empty6 {
+  display:flex;
+  flex:1;
+}
+.blue6 {
+  width: 80px;
+  background-color: blue;
+}
+.red6 {
+  background-color: red;
+  flex-grow: 1;
+}
+.container7 {
+  
+  flex:1;
+}
+
+.blue7 {
+ background-color: blue !important;
+ height: 20px;
+ 
+}
+.empty7 {
+  height: 20px;
+  background-color: transparent !important;
+}
+.blue7-1 {
+ background-color: blue !important;
+ height: 10px;
+}
+.empty8 {
+  display: flex;
+  flex:1;
+  justify-content: space-between;
+}
+.orange8 {
+  background-color: orange;
+  width: 80px;
+}
+.empty9 {
+  display: flex;
+  flex:1;
+  justify-content: space-evenly;
+}
+.orange9 {
+  flex-grow: 1;
+  background-color: orange;
+}
+.green9 {
+  background-color: transparent;
+  width: 20px;
+}
