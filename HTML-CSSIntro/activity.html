@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Taiga" content="Introduction about myself">
+        <title>Tigers</title>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="stylesheet" href="activity.css">
+    </head>
+    
+    <div id = "b1" class = "yellowBackground">
+        <h1 id = "f1">Header</h1>
+        <button onclick="light()">light mode</button>
+        <button onclick="dark()">dark mode</button>
+    </div>
+    <body>
+        <div class = "container">
+            <div id = "b2" class = "rowContainer">
+                <h1 id = "f2">Aside</h1>
+                
+            </div>
+            <div id = "b3" class = "articleContainer">
+                <div>
+                    <h1 id = "f3">Article</h1>
+                </div>
+                <div class = "imgContainer">
+                    <div><img class = "img" src="tiger.png" alt=""/></div>
+                    <div><img class="img" src="tiger.png" alt="" /></div>
+                    <div><img class="img" src="tiger.png" alt="" /></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function light() {
+                var font = document.getElementById("f1");
+                font.style.color= "#000000";
+                var font = document.getElementById("f2");
+                font.style.color = "#000000";
+                var font = document.getElementById("f3");
+                font.style.color = "#000000";
+                var font = document.getElementById("f4");
+                font.style.color = "#000000";
+                var background = document.getElementById("b1")
+                background.style.backgroundColor = "#FFFF00";
+                var background = document.getElementById("b2")
+                background.style.backgroundColor = "#FFFF00";
+                var background = document.getElementById("b3")
+                background.style.backgroundColor = "#FFFF00";
+                var background = document.getElementById("b4")
+                background.style.backgroundColor = "#FFFF00";
+            }
+            function dark() {
+                var font = document.getElementById("f1");
+                font.style.color = "#FFFFFF";
+                 var font = document.getElementById("f2");
+                font.style.color = "#FFFFFF";
+                 var font = document.getElementById("f3");
+                font.style.color = "#FFFFFF";
+                 var font = document.getElementById("f4");
+                font.style.color = "#FFFFFF";
+                var background = document.getElementById("b1")
+                background.style.backgroundColor = "#000000";
+                var background = document.getElementById("b2")
+                background.style.backgroundColor = "#000000";
+                var background = document.getElementById("b3")
+                background.style.backgroundColor = "#000000";
+                var background = document.getElementById("b4")
+                background.style.backgroundColor = "#000000";
+                }
+        </script>
+    </body>
+
+    <div id = "b4" class = "yellowBackground">
+        <h1 id="f4">Footer</h1>     
+    </div>
+    
+</html>

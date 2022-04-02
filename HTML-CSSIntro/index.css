@@ -1,0 +1,129 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+.empty3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.blue3 {
+  width: 80px;
+  background-color: blue;
+}
+.red3 {
+  width: 80px;
+  background-color: red;
+}
+.red4 {
+  width: 80px;
+  background-color: red;
+  flex-grow:1;
+}
+.empty5 {
+  display:flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+.red5 {
+  width:40px;
+  height:40px;
+  background-color: red;
+}
+.empty6 {
+  display:flex;
+  flex:1;
+}
+.blue6 {
+  width: 80px;
+  background-color: blue;
+}
+.red6 {
+  background-color: red;
+  flex-grow: 1;
+}
+.container7 {
+  
+  flex:1;
+}
+
+.blue7 {
+ background-color: blue !important;
+ height: 20px;
+ 
+}
+.empty7 {
+  height: 20px;
+  background-color: transparent !important;
+}
+.blue7-1 {
+ background-color: blue !important;
+ height: 10px;
+}
+.empty8 {
+  display: flex;
+  flex:1;
+  justify-content: space-between;
+}
+.orange8 {
+  background-color: orange;
+  width: 80px;
+}
+.empty9 {
+  display: flex;
+  flex:1;
+  justify-content: space-evenly;
+}
+.orange9 {
+  flex-grow: 1;
+  background-color: orange;
+}
+.green9 {
+  background-color: transparent;
+  width: 20px;
+}
